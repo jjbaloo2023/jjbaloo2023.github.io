@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Jophin Joseph</title>
+<meta name="description" content="Bioengineering, scientific software, and AI workflows. Research and projects by Jophin Joseph.">
+<style>
+:root{--paper:#f5f3ec;--ink:#203e36;--muted:#5f695f;--line:#d5d9ce}*{box-sizing:border-box}body{margin:0;background:var(--paper);color:var(--ink);font:18px/1.75 system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif}main{max-width:820px;margin:auto;padding:76px 32px 40px}h1,h2{font-family:Georgia,serif;font-weight:400;line-height:1.2}h1{font-size:clamp(40px,7vw,60px);letter-spacing:-1.5px;margin:0 0 32px}h2{font-size:30px;margin:0 0 22px}h3{font-size:20px;line-height:1.4;margin:0 0 9px}p{margin:0 0 22px}a{color:inherit;text-underline-offset:4px}a:hover{color:#426432}a:focus-visible{outline:3px solid #658445;outline-offset:5px}section{border-top:1px solid var(--line);padding:34px 0 12px;margin-top:32px}.research-links{font-size:15px;color:var(--muted)}.research-links ul{padding-left:20px;margin:8px 0 0}.research-links li{margin:6px 0}.project{margin:0 0 29px}.project p{margin-bottom:0;color:var(--muted);font-size:17px}.status{font-size:12px;font-weight:500;color:var(--muted);margin-left:9px;white-space:nowrap}.baloo{background:#e7eadf;border:1px dashed #a1ae98;min-height:150px;display:flex;align-items:center;justify-content:center;color:var(--muted);font-size:15px;border-radius:4px;margin:26px 0 10px;padding:22px}.caption{font-size:15px;color:var(--muted)}.contacts{display:flex;gap:10px 23px;flex-wrap:wrap;font-size:16px}.pending{color:var(--muted)}footer{border-top:1px solid var(--line);margin-top:34px;padding-top:20px;color:var(--muted);font-size:12px}.skip{position:absolute;top:-100px;padding:8px;background:white}.skip:focus{top:0}@media(max-width:600px){main{padding:42px 23px 28px}body{font-size:17px}h1{margin-bottom:26px}section{margin-top:27px;padding-top:27px}.status{display:block;margin:5px 0 0}}@media print{body{background:white;font-size:12px}main{max-width:none;padding:0}h1{font-size:30px}h2{font-size:22px}.baloo,.skip{display:none}}
+html{scroll-padding-top:28px}header{border-bottom:1px solid var(--line)}nav{max-width:1040px;margin:auto;padding:22px 32px;display:flex;justify-content:space-between;align-items:center;gap:24px;font-size:14px}.brand{font-weight:650;text-decoration:none}.nav-links{display:flex;gap:22px;flex-wrap:wrap}.nav-links a{text-decoration:none}.nav-links a:hover{text-decoration:underline}@media(max-width:650px){nav{padding:20px 23px;align-items:flex-start;flex-direction:column;gap:13px}.nav-links{gap:10px 19px;font-size:13px}main{padding-top:36px}}@media print{header{display:none}}
+.baloo-photo{display:block;width:100%;height:auto;max-width:600px;border-radius:5px;margin:26px 0 10px}
+</style></head><body>
+<a class="skip" href="#main">Skip to content</a>
+<header><nav aria-label="Main navigation"><a class="brand" href="#main">Jophin Joseph</a><div class="nav-links"><a href="#experience">Experience</a><a href="#research">Research</a><a href="#projects">Projects</a><a href="#outside">Outside work</a><a href="#contact">Contact</a></div></nav></header>
+<main id="main">
+<h1>Jophin Joseph</h1>
+<p>I’m a bioengineer excited about creating workflows and pipelines to solve hard problems in biology and the life sciences. I have a PhD from the University of Michigan. My research focused on how membrane-bending proteins support endocytosis, including during viral entry. I work at the intersection of wet-lab experiments and software development, building analysis pipelines for microscopy, bioprocessing, and computational biology.</p>
+<div class="research-links" id="research">My PhD research:
+<ul>
+<li><a href="https://deepblue.lib.umich.edu/handle/2027.42/171399">Thesis: Mechanical Regulation of Clathrin-Mediated Endocytosis by Membrane Bending Protein Epsin</a></li>
+<li><a href="https://pubmed.ncbi.nlm.nih.gov/36135878/">Biomechanical Role of Epsin in Influenza A Virus Entry</a> · 2022</li>
+<li><a href="https://pubmed.ncbi.nlm.nih.gov/33293652/">Complimentary action of structured and unstructured domains of epsin supports clathrin-mediated endocytosis at high tension</a> · 2020</li>
+<li><a href="https://pubmed.ncbi.nlm.nih.gov/32402120/">Mechanical Regulation of Endocytosis: New Insights and Recent Advances</a> · 2020</li>
+</ul></div>
+<p id="experience" style="margin-top:28px">I work in biopharmaceutical development at Zoetis, where I wear two hats. I lead upstream process development for monoclonal antibodies. I also co-lead the computational fluid dynamics (CFD) team, supporting work across pharmaceuticals, biopharmaceuticals, and diagnostics. I use agentic AI tools to accelerate workflow development and help scientists do better science.</p>
+<p>I’m interested in workflows that improve as more data and compute become available, rather than depend on an expanding set of domain-specific heuristics. <a href="http://www.incompleteideas.net/IncIdeas/BitterLesson.html">(Rich Sutton, 2019)</a></p>
+<section aria-labelledby="projects"><h2 id="projects">Projects</h2>
+<article class="project"><h3><a href="https://github.com/jjbaloo2023/mechanome">Mechanome</a></h3><p>A collection of physical models for how cells generate and respond to forces. It connects membrane mechanics and Bayesian inference with models of tissue junctions, cortical tension, adhesion, and force-sensitive channels. The aim is to compare explanations against experiments while keeping assumptions, uncertainty, and sources attached to each result. I started it during Anthropic’s Built with Claude Science hackathon.</p></article>
+<article class="project"><h3><a href="https://github.com/jjbaloo2023/viral-entry-convergence-review">Viral entry convergence review</a></h3><p>A literature review and mechanistic dataset comparing how 38 viruses enter cells. It asks which steps they share, with a focus on endosomal entry and acidification. The review separates experimental findings, inferred mechanisms, and predictions about how viruses might bypass entry blockers.</p></article>
+<article class="project"><h3><a href="https://github.com/jjbaloo2023/agent-gym">Agent Gym</a></h3><p>A test system for agents that use scientific software. It records agent actions, tool results, failures, and corrections in CAD and CFD workflows. Current experiments test checkpoint restart and recovery from a stalled solver. The next step is to compare results with physical reference data.</p></article>
+</section>
+<section aria-labelledby="outside"><h2 id="outside">Outside of work</h2>
+<p>I love spending time with my family in West Michigan. I also love tinkering and learning new things, whether that means figuring out where plants should go in my garden beds or working through plumbing and electrical code requirements during a home renovation.</p>
+<img class="baloo-photo" src="assets/baloo.jpg" alt="Baloo in his green sweater, standing in tall grass" width="1200" height="900" loading="lazy">
+<p class="caption">Meet Baloo, the namesake of my GitHub account.</p></section>
+<section aria-labelledby="contact"><h2 id="contact">Contact</h2>
+<p>If you’d like to talk about the projects, science, or something you’re building, feel free to reach out.</p>
+<div class="contacts"><a href="mailto:jophingj@gmail.com">Email</a><a href="https://www.linkedin.com/in/jophingj/">LinkedIn</a><a href="https://scholar.google.com/citations?user=1GXfdBAAAAAJ">Google Scholar</a><a href="https://github.com/jjbaloo2023">GitHub</a><a href="assets/jophin-joseph-resume.pdf">Resume</a></div>
+</section><footer>Jophin Joseph · Personal projects and views.</footer>
+</main></body></html>
